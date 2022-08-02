@@ -1,0 +1,182 @@
+body {
+    font-family: 'Square Peg', cursive;
+    background-color: rgb(220, 248, 239);
+}
+
+.title-pic {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0em;
+    border-style: double;
+    border-width: 1em;
+    background-color: azure;
+}
+
+#title-pic {
+    width: 90%;
+    height: 8em;
+    display: flex;
+    margin-bottom: 0em;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0em;
+    font-size: 80pt;
+    margin-bottom: 0em;
+    font-weight: bolder;
+}
+
+.site-intro {
+    margin-top: 0%;
+    font-size: 1.7em;
+    color: azure;
+    background-color: black;
+    width: 60%;
+    border-style: dotted;
+}
+
+.map-favs {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    height: 400px;
+}
+
+#map {
+    border: .2em solid black;
+    flex-grow: 5;
+    margin-right: 1em;
+    margin-top: 0em;
+    padding-top: 0em;
+    width: 80%;
+}
+
+.favorites {
+    border: .2em solid black;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    width: 18%;
+}
+
+#favs {
+    list-style-type: none;
+    padding: .4em;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4em;
+    font-weight: 800;
+    text-align: center;
+}
+
+li {
+    padding-top: 1em;
+    font-size: .7em;
+    text-align: left;
+}
+
+.business-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    border: .3em solid black;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: azure;
+}
+
+.business-pic {
+    display: flex;
+    width: 40%;
+    justify-self: flex-end;
+    margin: 1em;
+    border-style: groove;
+    border-width: 1em;
+   
+}
+
+h3 {
+    margin-top: 10%;
+    margin-left: .5em;
+    width: 30%;
+    font-size: 26pt;
+}
+
+h4 {
+    margin-top: 0%;
+    margin-left: .5em;
+    width: 80%;
+    margin-bottom: 0%;
+    font-size: 20pt;
+}
+
+.description {
+    width: 70%;
+    margin-top: .5em;
+    margin-left: .5em;
+    font-size: 16pt;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+
+
+.create {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: .5em;
+    font-size: 24pt;
+}
+
+#submitBtn {
+    width: 20%;
+    align-self: center;
+    background-color: azure;
+    margin-top: 1em;
+}
+
+h2 {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 36pt;
+}
+
+button {
+    margin: 1em;
+    background-color: rgb(169, 169, 169);
+    color: azure;
+    font-size: 16pt;
+    border-radius: 20%;
+    transition: transform 60ms;
+}
+
+button:hover {
+    background-color: black;    
+}
+
+button:active {
+    transform: translateY(.3rem);
+}
+
+.nolove {
+    color: azure;
+}
+
+.love {
+    color: rgb(222, 133, 123);
+}
