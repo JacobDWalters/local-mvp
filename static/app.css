@@ -83,7 +83,8 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
 .card {
@@ -93,6 +94,7 @@ li {
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: azure;
+    margin-top: 2em;
 }
 
 .business-pic {
