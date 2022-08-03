@@ -1,6 +1,8 @@
 body {
     font-family: 'Square Peg', cursive;
     background-color: rgb(220, 248, 239);
+    display: flex;
+    flex-direction: column;
 }
 
 .title-pic {
@@ -131,25 +133,27 @@ h4 {
 
 .form {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     margin-top: 1em;
-
+    width: 40%;
+    align-self: center;
 }
 
 
 .create {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
     gap: .5em;
     font-size: 24pt;
+    margin-bottom: 3em;
 }
 
 #submitBtn {
     width: 20%;
-    align-self: center;
     background-color: azure;
     margin-top: 1em;
+    align-self: center;
 }
 
 h2 {

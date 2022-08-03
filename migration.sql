@@ -28,5 +28,6 @@ CREATE TABLE users (
 CREATE TABLE images (
     id SERIAL, 
     name TEXT,
-    img TEXT
+    img BYTEA,
+    business_name TEXT
 )
