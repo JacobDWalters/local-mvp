@@ -17,7 +17,7 @@ const pool = new pg.Pool({
 });
 
 const app = express();
-const PORT = process.env.PORT || 4000; 
+const PORT = process.env.PORT || 3000; 
 
 app.use(express.static("static"));
 app.use(express.json());
